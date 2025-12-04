@@ -15,9 +15,9 @@ A web application to track income, expenses, and debts with secure authenticatio
 - **Backend/Database**: Firebase Authentication, Firestore
 - **Deployment**: Vercel
 
-## 🚀 Live Demo & Repository
+## 🚀 Live Demo 
 
-- **GitHub Repository:** [Expense Tracker App](https://github.com/Palak3125/expensetracker-app)
+
 - **Live Demo:** [View Live](https://expensetracker-app-taupe.vercel.app/)
 
 ## 📸 Screenshot
@@ -25,28 +25,8 @@ A web application to track income, expenses, and debts with secure authenticatio
 ![App Screenshot](src/assets/screenshot1.png)
 ![App Screenshot](src/assets/screenshot2.png)
 
-## 📂 Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/Palak3125/expensetracker-app.git
-
-# Navigate into the project folder
-cd expensetracker-app
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
 
 
 
-## 👩‍💻 Developed by
 
-**Palak Dwivedi**  
-
-📧 [palakdwivedi103@gmail.com](mailto:palakdwivedi103@gmail.com)  
-
-🔗 [LinkedIn](https://www.linkedin.com/in/palak-dwivedi) | [GitHub](https://github.com/Palak3125)
 
