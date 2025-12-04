@@ -1,0 +1,133 @@
+
+.money-lent {
+  padding: 2rem;
+  background-color: #0b0b12;
+  min-height: 100vh;
+  color: #00e091;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.loan-form {
+  background-color: #14141f;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 255, 170, 0.1), 0 6px 24px rgba(0, 255, 170, 0.05);
+  color: white;
+}
+
+.form-style {
+  color: #cfcfcf;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #1e1e2a;
+  color: #fff;
+}
+
+.btn-add {
+  background-color: #00e091;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+  background-color: #00c47a;
+}
+
+.loans-list {
+  margin-top: 2rem;
+  background-color: #15151f;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 255, 170, 0.1);
+}
+
+.loans-list table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ccc;
+}
+
+.loans-list th,
+.loans-list td {
+  border: 1px solid #2d2d38;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.loans-list th {
+  background-color: #1e1e2d;
+  color: #fff;
+}
+
+.loans-list td {
+  background-color: #242434;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 600px) {
+  .loans-list table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .loan-form, .loans-list {
+    padding: 1rem;
+  }
+
+  .form-group input, .btn-add {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .btn-add {
+    padding: 0.6rem;
+  }
+
+  .loans-list th, .loans-list td {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+}
